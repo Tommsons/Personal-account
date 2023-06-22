@@ -1,0 +1,86 @@
+body {
+  background: #157CB7;
+}
+.registration {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background: #F4F5F8;
+  box-shadow: 10px 20px 0px #165c85;
+  border-radius: 3px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.tittle-registration {
+  height: 67.17px;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 44px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 0px;
+}
+.forms {
+  text-align: center;
+}
+.form {
+  display: inline-block;
+  font-size: 17px;
+  width: 350px;
+  margin: 5px 4px;
+  border-color: #5E737E3D;
+  padding: 9px 1px;
+  border-radius: 2px;
+}
+.register {
+  text-align: center;
+  background-color:#788993;
+  border-color:#788993;
+  border-radius: 4px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  margin: 15px 0px 0px 0px;
+}
+.link-register {
+  text-decoration: none;
+}
+.text-register {
+  color:#fff;
+  font-size: 20px;
+}
+@media screen and (max-width: 767px){
+  .registration {
+    width: 470px;
+    height: 420px;
+  }
+  .tittle-registration {
+    margin-top: 5px;
+    font-size: 28px;
+  }
+  .form {
+    margin: 3px 2px;
+    padding: 7px 1px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .registration {
+    width: 380px;
+    height: 400px;
+  }
+  .tittle-registration {
+    height: 60px;
+    font-size: 26px;
+  }
+  .form {
+    width: 335px;
+  }
+  .register {
+    margin: 5px 0px 0px 0px;
+  }
+  .text-register {
+    font-size: 15px;
+  }
+}
